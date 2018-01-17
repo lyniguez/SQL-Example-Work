@@ -153,6 +153,12 @@ group by p.customer_id;
 -- 7a)  Use subqueries to display the titles of movies starting with the letters K and Q whose language is English.
 select f.title
 from film as f
+where f.language_id = (select language_id from language where name = 'English')
+and f.title like 'K%' or 'Q%' ;
+
+-- with join
+select f.title
+from film as f
 join language as l
 on f.language_id = l.language_id
 where f.title like 'K%' or 'Q%' and l.name = 'English';
