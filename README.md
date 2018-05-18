@@ -1,4 +1,4 @@
-# SQL practice using Sakila schema test database
+# SQL Example Work using Sakila schema test database
 
 ### Appendix: List of Tables in the Sakila DB
 
