@@ -323,7 +323,7 @@ or
 	order by s.store_id;
 ```
   	
-* 7h. List the top five genres in gross revenue in descending order. (**Hint**: you may need to use the following tables: category, film_category, inventory, payment, and rental.)
+* 7h. List the top five genres in gross revenue in descending order. 
 
 ```
 	select c.name as 'Film', sum(p.amount) as 'Gross Revenue'
