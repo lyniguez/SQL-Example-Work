@@ -2,9 +2,7 @@
 
 ### Appendix: List of Tables in the Sakila DB
 
-https://dev.mysql.com/doc/sakila/en/sakila-structure.html
-
-* A schema is also available as `sakila_schema.svg`. Open it with a browser to view.
+* [Sakila DB schema](https://dev.mysql.com/doc/sakila/en/sakila-structure.html)
 
 ```sql
 	'actor'
