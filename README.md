@@ -1,4 +1,35 @@
-#SQL practice using Sakila schema test database
+# SQL practice using Sakila schema test database
+
+### Appendix: List of Tables in the Sakila DB
+
+* A schema is also available as `sakila_schema.svg`. Open it with a browser to view.
+
+```sql
+	'actor'
+	'actor_info'
+	'address'
+	'category'
+	'city'
+	'country'
+	'customer'
+	'customer_list'
+	'film'
+	'film_actor'
+	'film_category'
+	'film_list'
+	'film_text'
+	'inventory'
+	'language'
+	'nicer_but_slower_film_list'
+	'payment'
+	'rental'
+	'sales_by_film_category'
+	'sales_by_store'
+	'staff'
+	'staff_list'
+	'store'
+```
+
 
 
 * 1a. Display the first and last names of all actors from the table `actor`. 
@@ -67,32 +98,3 @@
 
 * 8c. You find that you no longer need the view `top_five_genres`. Write a query to delete it.
 
-### Appendix: List of Tables in the Sakila DB
-
-* A schema is also available as `sakila_schema.svg`. Open it with a browser to view.
-
-```sql
-	'actor'
-	'actor_info'
-	'address'
-	'category'
-	'city'
-	'country'
-	'customer'
-	'customer_list'
-	'film'
-	'film_actor'
-	'film_category'
-	'film_list'
-	'film_text'
-	'inventory'
-	'language'
-	'nicer_but_slower_film_list'
-	'payment'
-	'rental'
-	'sales_by_film_category'
-	'sales_by_store'
-	'staff'
-	'staff_list'
-	'store'
-```
